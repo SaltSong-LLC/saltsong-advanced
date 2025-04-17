@@ -1,0 +1,21 @@
+
+{
+    "name": "Salt Song Web Design",
+    "email": "info@saltsong.com",
+    "phoneForTel": "707-204-0477",
+    "phoneFormatted": "(707) 204-0477",
+    "address": {
+        "lineOne": "1207 Delaware Ave.",
+        "lineTwo": "Unit 209",
+        "city": "Wilmington",
+        "state": "DE",
+        "zip": "19806",
+        "country": "US",
+        "mapLink": "https://maps.app.goo.gl/5xefpExwHujUHgqG8"
+    },
+    "social": {
+        "facebook": "https://www.facebook.com/profile.php?id=61575267536415",
+        "instagram": "https://www.instagram.com/"
+    },
+    "domain": "https://www.saltsongwebdesign.com"
+}
