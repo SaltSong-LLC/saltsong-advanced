@@ -1,0 +1,356 @@
+/* STYLES FOR ABOVE THE FOLD */
+/*-- -------------------------- -->
+<---           Hero             -->
+<--- -------------------------- -*/
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    #hero {
+      z-index: 1;
+      position: relative;
+      /* prevents overflow from the lines extending past the screen width */
+      overflow: hidden;
+      /* changes on tablet */
+      padding: 0 1rem;
+      padding-bottom: 6.25rem;
+      font-family: "Roboto", "Arial", sans-serif;
+      /* Centers button */
+      text-align: center;
+    }
+    #hero .cs-picture {
+      z-index: -2;
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: block;
+      height: 100%;
+      /* Background Image */
+      width: 100%;
+    }
+    #hero .cs-picture img {
+      position: absolute;
+      top: 4.0625rem;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      /* Makes image act like a background-image */
+      object-fit: cover;
+    }
+    #hero .cs-picture:before {
+      z-index: 1;
+      position: absolute;
+      top: 4.0625rem;
+      left: 0;
+      /* Black Color Overlay */
+      content: "";
+      opacity: 0.7;
+      display: block;
+      background: #000;
+      height: 100%;
+      width: 100%;
+      /* prevents the cursor from interacting with it */
+      pointer-events: none;
+    }
+    #hero .cs-container {
+      position: relative;
+      margin: auto;
+      max-width: 80em;
+      width: 100%;
+      /* we put the padding top and bottom on the container instead of #Hero so the pseudo element lines go to the top and bottom of the section */
+      /* 144px - 280px - leaving extra space for the navigation */
+      /* changes on tablet */
+      padding: clamp(9em, 25.95vw, 17.5em) 0 0 0;
+    }
+    #hero .cs-container:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      /* Left Line */
+      content: "";
+      opacity: 1;
+      display: block;
+      background: -moz-linear-gradient(top, rgba(250, 251, 252, 0.5) 0%, rgba(250, 251, 252, 0) 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(top, rgba(250, 251, 252, 0.5) 0%, rgba(250, 251, 252, 0) 100%); /* Chrome10-25,Safari5.1-6 */
+      height: 100%;
+      width: 0px;
+    }
+    #hero .cs-flex-group {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+      margin: auto;
+      /* 60px - 220px */
+      /*margin-bottom: clamp(3.75em, 15.5vw, 13.75em);*/
+      /* 464px - 562px */
+      max-width: clamp(29em, 60vw, 35.125em);
+      width: 80vw;
+      box-sizing: border-box;
+    }
+    #hero .cs-topper {
+      margin-bottom: 1rem;
+      color: var(--primary);
+      text-align: center;
+    }
+    #hero .cs-title {
+      width: 100%;
+      color: var(--bodyTextColorWhite);
+      text-align: center;
+    }
+    #hero .cs-text {
+      /* 32px - 40px */
+      margin: 0 auto clamp(2rem, 4vw, 2.5rem) 0;
+      /* 40px - 48px */
+      margin-bottom: clamp(2.5rem, 4vw, 3rem);
+      color: var(--bodyTextColorWhite);
+      text-align: center;
+    }
+    #hero .cs-button-solid {
+      margin-bottom: 1rem;
+      height: initial;
+      line-height: clamp(2.875em, 5.5vw, 3.5em);
+    }
+    #hero .cs-button-transparent {
+      z-index: 1;
+      position: relative;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid var(--bodyTextColorWhite);
+      margin: 0 0.5rem;
+      background-color: transparent;
+      /* 46px - 56px */
+      height: clamp(2.875em, 5.5vw, 3.5em);
+      width: 11.25rem;
+      box-sizing: border-box;
+      padding: 0;
+      text-decoration: none;
+      font-size: 1rem;
+      /* 46px - 56px */
+      line-height: clamp(2.875em, 5.5vw, 3.5em);
+      font-weight: 700;
+      color: #fff;
+    }
+    #hero .cs-button-transparent .cs-img {
+      display: block;
+      margin-right: 0.75rem;
+    }
+    #hero .cs-button-transparent:before {
+      z-index: -1;
+      position: absolute;
+      /* so it sits on top of the border */
+      top: -1px;
+      bottom: -1px;
+      left: -1px;
+      right: -1px;
+      content: "";
+      opacity: 1;
+      /* this is what creates the grow affect on hover */
+      transform: scaleX(0);
+      display: block;
+      background: #000;
+      transition: transform 0.3s;
+      transform-origin: left;
+    }
+    #hero .cs-button-transparent:hover:before {
+      transform: scaleX(1);
+    }
+  }
+  /* Tablet - 768px */
+  @media only screen and (min-width: 48rem) {
+    #hero {
+      /* 32px - 40px */
+      padding: 0 clamp(2em, 5vw, 2.5em);
+    }
+    #hero .cs-container {
+      padding: clamp(6em, 27.95vw, 12em) 0 clamp(6em, 30.95vw, 10em) 0;
+    }
+    #hero .cs-container:after {
+      position: absolute;
+      top: 0;
+      right: 0;
+      /* Right Line */
+      content: "";
+      opacity: 1;
+      display: block;
+      background: -moz-linear-gradient(top, rgba(250, 251, 252, 0) 0%, rgba(250, 251, 252, 0.5) 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(top, rgba(250, 251, 252, 0) 0%, rgba(250, 251, 252, 0.5) 100%); /* Chrome10-25,Safari5.1-6 */
+      height: 100%;
+      width: 0px;
+    }
+    #hero .cs-button-solid {
+      margin-right: 1.25rem;
+      margin-bottom: 0;
+    }
+  }
+  /* Dark Mode */
+  @media only screen and (min-width: 0rem) {
+    body.dark-mode #hero .cs-background:before {
+      opacity: 0.8;
+    }
+  }
+  /*-- -------------------------- -->
+  <---          Services          -->
+  <--- -------------------------- -*/
+  /* Mobile - 360px */
+  @media only screen and (min-width: 0rem) {
+    #services-1188 {
+        padding: var(--sectionPadding);
+    }
+    #services-1188 .cs-container {
+        max-width: 80rem;
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* 48px - 64px */
+        gap: clamp(3rem, 6vw, 4rem);
+    }
+    #services-1188 .cs-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* centers content horizontally, set to flex-start to left align */
+        align-items: center;
+        /* set text align to left if content needs to be left aligned */
+        text-align: center;
+    }
+  
+    #services-1188 .cs-card-group {
+        /* changes to 1280px at desktop */
+        max-width: 56.25rem;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        justify-content: center;
+        gap: 1rem;
+    }
+    #services-1188 .cs-item {
+        list-style: none;
+        max-width: 23rem;
+        width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+        padding: 1rem;
+        border: 1px solid #81a8b6;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+    }
+    #services-1188 .cs-picture {
+        width: 5rem;
+        height: 5rem;
+        margin-bottom: 1.25rem;
+        box-sizing: border-box;
+        /* prevents border from affecting height and width */
+        background-color: #f9ef23;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        /* prevents flexbox from squishing it */
+        flex: none;
+    }
+    #services-1188 .cs-icon {
+        width: 2.875rem;
+        height: auto;
+        display: block;
+    }
+    #services-1188 .cs-h3 {
+        font-size: 1.25rem;
+        line-height: 1.5em;
+        margin: 0;
+        margin-bottom: 0.5rem;
+        color: var(--headerColor);
+        text-align: center;
+    }
+    #services-1188 .cs-item-text {
+        /* 14px - 16px */
+        font-size: clamp(0.875rem, 1.5vw, 1rem);
+        line-height: 1.5em;
+        margin: 0;
+        color: var(--bodyTextColor);
+        text-align: center;
+    }
+    #services-1188 .cs-button-solid {
+        font-size: 1rem;
+        /* 46px - 56px */
+        line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+        font-weight: 700;
+        min-width: 9.375rem;
+        margin: 0;
+        /* prevents padding from adding to the width */
+        box-sizing: border-box;
+        padding: 0 1.5rem;
+        color: #fff;
+        background-color: var(--primary);
+        text-decoration: none;
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+        text-align: center;
+    }
+    #services-1188 .cs-button-solid:before {
+        content: "";
+        width: 0%;
+        height: 100%;
+        background: #000;
+        opacity: 1;
+        border-radius: 0.25rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transition: width 0.3s;
+    }
+    #services-1188 .cs-button-solid:hover:before {
+        width: 100%;
+    }
+  }
+  /* Tablet - 768px */
+  @media only screen and (min-width: 48rem) {
+    #services-1188 .cs-card-group {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.25rem;
+    }
+    #services-1188 .cs-item {
+        margin: 0;
+    }
+  }
+  /* Large Desktop - 1300px */
+  @media only screen and (min-width: 81.25rem) {
+    #services-1188 .cs-card-group {
+        max-width: 80rem;
+    }
+    #services-1188 .cs-item {
+        max-width: none;
+        padding: 2rem 1.5rem;
+    }
+  }
+  /* Dark Mode */
+  @media only screen and (min-width: 0rem) {
+    body.dark-mode #services-1188 .cs-topper {
+        color: var(--primaryLight);
+    }
+    body.dark-mode #services-1188 .cs-item {
+        background-color: var(--medium);
+    }
+    body.dark-mode #services-1188 .cs-text,
+    body.dark-mode #services-1188 .cs-item-text {
+        opacity: 0.8;
+    }
+    body.dark-mode #services-1188 .cs-icon {
+        /* turns it white */
+        filter: grayscale(1) brightness(1000%);
+    }
+    body.dark-mode #services-1188 .cs-title,
+    body.dark-mode #services-1188 .cs-text,
+    body.dark-mode #services-1188 .cs-h3,
+    body.dark-mode #services-1188 .cs-item-text {
+        color: var(--bodyTextColorWhite);
+    }
+  }
+  

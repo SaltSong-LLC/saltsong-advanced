@@ -1,6 +1,16 @@
 // Plugin Imports
 const pluginDirectoryOutput = require("@11ty/eleventy-plugin-directory-output");
 const pluginEleventyNavigation = require("@11ty/eleventy-navigation");
+const pluginSitemap = require("@quasibit/eleventy-plugin-sitemap");
+const pluginMinifier = require("@sherby/eleventy-plugin-files-minifier");
+
+const configCss = require("./src/config/css");
+const configJs = require("./src/config/javascript");
+const configSitemap = require("./src/config/sitemap");
+const configServer = require("./src/config/server");
+
+const filterPostDate = require("./src/config/postDate");
+const isProduction = configServer.isProduction;
 
 module.exports = function (eleventyConfig) {
     /**
@@ -17,6 +27,19 @@ module.exports = function (eleventyConfig) {
     // https://www.11ty.dev/docs/plugins/navigation/
     eleventyConfig.addPlugin(pluginEleventyNavigation);
 
+
+    eleventyConfig.addTemplateFormats("css");
+    eleventyConfig.addExtension("css", configCss);
+
+    eleventyConfig.addTemplateFormats("js");
+    eleventyConfig.addExtension("js", configJs);
+
+    eleventyConfig.addPlugin(pluginEleventyNavigation);
+    eleventyConfig.addPlugin(pluginSitemap, configSitemap);
+    eleventyConfig.addPlugin(pluginMinifier);
+
+    eleventyConfig.addFilter("postDate", filterPostDate);
+
     /**
      *  PASSTHROUGH'S
      *      Copy/paste non-template files straight to /public, without any interference from the eleventy engine
@@ -28,6 +51,11 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("./src/assets/images");
     eleventyConfig.addPassthroughCopy("./src/assets/js");
     eleventyConfig.addPassthroughCopy("./src/assets/svgs");
+
+
+    eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
+
+    eleventyConfig.setServerOptions(configServer);
 
     return {
         dir: {
