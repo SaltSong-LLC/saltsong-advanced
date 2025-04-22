@@ -347,7 +347,7 @@
     }
     #steps-1209 .cs-container {
         /* changes to 1280px at tablet */
-        max-width: 44rem;
+        max-width: 80rem;
         width: 100%;
         margin: auto;
         display: flex;
@@ -363,14 +363,14 @@
         display: flex;
         flex-direction: column;
         /* centers content horizontally, set to flex-start to left align */
-        align-items: center;
+        align-items: flex-start;
     }
   
   }
   /* Mobile - 360px */
   /* you can copy and paste these styles into the section CSS where you placed the #list-893 HTML, or you can place it in your global stylesheet so you can reuse the HTML in any Side By Side section on your site. That way when you make changes to it, it will also change everywhere in the site */
   #list-893 {
-    max-width: 49.375rem;
+    max-width: 80rem;
     margin: 0 0 2rem 0;
     padding: 0;
     columns: 2;

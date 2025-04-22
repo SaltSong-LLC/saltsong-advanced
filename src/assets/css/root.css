@@ -34,7 +34,7 @@
     .cs-title {
       position: relative;
       margin: 0 0 1rem 0;
-      max-width: 43.75rem;
+      max-width: 64rem;
       font-size: var(--headerFontSize);
       line-height: 1.2em;
       font-weight: 900;
@@ -43,7 +43,7 @@
     }
     .cs-text {
       margin: 0;
-      max-width: 40.625rem;
+      max-width: 80rem;
       width: 100%;
       font-size: var(--bodyFontSize);
       line-height: 1.5em;
@@ -1034,7 +1034,7 @@
   /* Mobile */
   @media only screen and (min-width: 0rem) {
     #footer {
-      background: #1c1c1c;
+      background: #06446a;
       padding: 5.25rem 0 1.25rem;
       font-size: min(4vw, 1.2em);
     }
