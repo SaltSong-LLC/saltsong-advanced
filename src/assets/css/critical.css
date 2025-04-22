@@ -215,7 +215,9 @@
         /* set text align to left if content needs to be left aligned */
         text-align: center;
     }
-  
+    #services-1188 .cs-title {
+        color: var(--secondary);
+    }
     #services-1188 .cs-card-group {
         /* changes to 1280px at desktop */
         max-width: 56.25rem;

@@ -366,7 +366,13 @@
         /* centers content horizontally, set to flex-start to left align */
         align-items: flex-start;
     }
-  
+    #steps-1209 .cs-topper {
+        color: var(--secondary);
+    }
+    #steps-1209 .cs-title {
+        margin: 0;
+        color: var(--secondary);
+    }
   }
   /* Mobile - 360px */
   /* you can copy and paste these styles into the section CSS where you placed the #list-893 HTML, or you can place it in your global stylesheet so you can reuse the HTML in any Side By Side section on your site. That way when you make changes to it, it will also change everywhere in the site */
@@ -608,6 +614,10 @@
     #pricing-1769 .cs-price-button {
       width: 100%;
       border-radius: 0;
+      color: var(--secondary);
+    }
+    #pricing-1769 .cs-price-button:hover {
+      color: var(--bodyTextColorWhite);
     }
     #pricing-1769 .cs-price-button:before {
       border-radius: 0;
@@ -702,7 +712,7 @@
     #quote-2141 {
       /* 80px - 160px */
       padding: clamp(5rem, 10vw, 10rem) 1rem;
-      background-color: #FBF5F1;
+      background-color: #90d8ff;
       position: relative;
       z-index: 1;
     }
@@ -764,7 +774,7 @@
       display: block;
     }
     #quote-2141 .cs-flower {
-      width: 50vw;
+      width: 5vw;
       max-width: 40rem;
       height: auto;
       display: block;
@@ -772,12 +782,12 @@
       z-index: -1;
     }
     #quote-2141 .cs-left {
-      top: 0;
-      left: 0;
+      top: 10%;
+      left: 10%;
     }
     #quote-2141 .cs-right {
-      right: 0;
-      bottom: 0;
+      right: 10%;
+      bottom: 10%;
     }
   }
   /* Dark Mode */
@@ -829,6 +839,10 @@
     }
     #blog-1581 .cs-title {
       max-width: 20ch;
+      color: var(--secondary);
+    }
+    #blog-1581 .cs-topper {
+      color: var(--secondary);
     }
     #blog-1581 .cs-button-solid {
       font-size: 1rem;
@@ -838,7 +852,7 @@
       font-weight: 700;
       text-align: center;
       margin: 0;
-      color: #fff;
+      color: var(--secondary);
       min-width: 12.5rem;
       padding: 0 1.5rem;
       background-color: var(--primary);
@@ -862,7 +876,7 @@
       transition: width .3s;
     }
     #blog-1581 .cs-button-solid:hover {
-      color: #fff;
+      color: var(--bodyTextColorWhite);
     }
     #blog-1581 .cs-button-solid:hover:before {
       width: 100%;
@@ -1061,7 +1075,7 @@
         font-weight: 700;
         text-align: center;
         margin: 0;
-        color: #fff;
+        color: var(--secondary);
         min-width: 9.375rem;
         padding: 0 1.5rem;
         background-color: var(--primary);
@@ -1071,6 +1085,9 @@
         z-index: 1;
         /* prevents padding from adding to the width */
         box-sizing: border-box;
+    }
+    #cta-51 .cs-button-solid:hover {
+      color: var(--bodyTextColorWhite);
     }
     #cta-51 .cs-button-solid:before {
         content: "";
