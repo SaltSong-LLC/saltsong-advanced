@@ -6,6 +6,7 @@
 @media only screen and (min-width: 0rem) {
     :root {
       --primary: #f9ef23;
+      --primaryVeryLight: #36a0d9;
       --primaryLight: #0c5e8b;
       --secondary: #001f3f;
       --secondaryLight: #001f3f;
@@ -1047,21 +1048,20 @@
       display: inline-block;
       margin: auto;
       margin-bottom: 1.875em;
-      height: 2em;
+      height: 8em;
       width: auto;
       text-align: center;
     }
     #footer .left-section .logo img {
       display: block;
-      height: 100%;
+      height: 4em;
       width: auto;
     }
     #footer .left-section p {
       opacity: 0.9;
-      margin: auto;
+      margin: 1rem auto;
       width: 100%;
-      font-size: 0.875rem;
-      line-height: 1.9285714286rem;
+      line-height: 1.4rem;
       color: #fff;
       text-align: center;
     }
