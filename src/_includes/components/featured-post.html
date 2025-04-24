@@ -2,27 +2,33 @@
 <!--                Featured Posts                -->
 <!-- ============================================ -->
 
-<div class="blog-sidebar">
-    <!--Featured-->
-    <div class="blog-featured-group">
-        <span class="blog-header">Featured Posts</span>
-        {%- for post in collections.featured | reverse -%}
-            <a class="blog-feature" href="{{ post.url }}">
-                <picture class="blog-featureImage">
-                    <img
-                        src="{{ post.data.image }}"
-                        alt="{{ post.data.imageAlt }}"
-                        width="60"
-                        height="60"
-                        decoding="async"
-                    />
-                </picture>
-                <div class="content-group">
-                    <h3 class="feature-h3">{{ post.data.title }}</h3>
-                    <span class="feature-date">{{ post.date | postDate }}</span>
-                </div>
-            </a>
-        {%- endfor -%}
+<section id="blog-1581">
+    <div class="cs-container">
+        <div class="cs-content">
+            <div class="cs-content-flex">
+                <span class="cs-topper">News And Articles</span>
+                <h2 class="cs-title">Directly From The Latest News and Articles</h2>
+            </div>
+            <a href="" class="cs-button-solid">View All</a>
+        </div>
+        <ul class="cs-card-group">
+            {%- for post in collections.featured | reverse -%}
+                <li class="cs-item">
+                    <a href="{{ post.url }}" class="cs-link">
+                        <picture class="cs-picture" aria-hidden="true">
+                            <source media="(max-width: 600px)" srcset="{{ post.data.image }}">
+                            <img src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}" width="370" height="240" decoding="async">
+                        </picture>
+                        <div class="cs-flex">
+                            <span class="cs-date">{{ post.date | postDate }}</span>
+                            <h3 class="cs-h3">{{ post.data.title }}</h3>
+                            <p class="cs-item-text">
+                                {{ post.data.description }}
+                            </p>
+                        </div>
+                    </a>
+                </li>
+            {%- endfor -%}
+        </ul>
     </div>
-    <!--Add anything else in the sidebar below-->
-</div>
+</section>
