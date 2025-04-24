@@ -3,6 +3,7 @@ const pluginDirectoryOutput = require("@11ty/eleventy-plugin-directory-output");
 const pluginEleventyNavigation = require("@11ty/eleventy-navigation");
 const pluginSitemap = require("@quasibit/eleventy-plugin-sitemap");
 const pluginMinifier = require("@sherby/eleventy-plugin-files-minifier");
+const markdownIt = require("markdown-it");
 
 const configCss = require("./src/config/css");
 const configJs = require("./src/config/javascript");
@@ -26,7 +27,7 @@ module.exports = function (eleventyConfig) {
     // Allows navigation items to be defined in a scalable way via the front matter
     // https://www.11ty.dev/docs/plugins/navigation/
     eleventyConfig.addPlugin(pluginEleventyNavigation);
-
+    eleventyConfig.addPlugin(markdownIt);
 
     eleventyConfig.addTemplateFormats("css");
     eleventyConfig.addExtension("css", configCss);
@@ -38,7 +39,6 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(pluginSitemap, configSitemap);
     eleventyConfig.addPlugin(pluginMinifier);
 
-    eleventyConfig.addFilter("postDate", filterPostDate);
 
     /**
      *  PASSTHROUGH'S
@@ -51,8 +51,9 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("./src/assets/images");
     eleventyConfig.addPassthroughCopy("./src/assets/js");
     eleventyConfig.addPassthroughCopy("./src/assets/svgs");
-    eleventyConfig.addPassthroughCopy("./src/admin/config.yml");
+    eleventyConfig.addPassthroughCopy("./src/admin");
 
+    eleventyConfig.addFilter("postDate", filterPostDate);
 
     eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 
@@ -66,6 +67,5 @@ module.exports = function (eleventyConfig) {
             data: "_data",
         },
         htmlTemplateEngine: "njk",
-        markdownTemplateEngine: "njk",
     };
 };

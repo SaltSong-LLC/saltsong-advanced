@@ -1,0 +1,140 @@
+---
+title: "White Label Agency Services | Salt Song Web Designs"
+description: "Meta description for the page"
+preloadImg: "/assets/images/website-coean-head-nighttime.jpg"
+permalink: "white-label-agency-services/"
+eleventyNavigation:
+    key: White Label Agency Services
+    order: 200
+    parent: Services
+---
+
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/assets/css/services.css" />
+{% endblock %}
+
+{% block body %}
+    <!-- ============================================ -->
+    <!--                    LANDING                   -->
+    <!-- ============================================ -->
+
+    <section id="int-hero">
+        <h1 id="home-h1">White Label Agency Services</h1>
+        <picture>
+            <source
+                media="(max-width: 600px)"
+                srcset="/assets/images/website-coean-head-nighttime-m.jpg"
+            />
+            <source
+                media="(min-width: 601px)"
+                srcset="/assets/images/website-coean-head-nighttime.jpg"
+            />
+            <img
+                aria-hidden="true"
+                decoding="async"
+                src="/assets/images/website-coean-head-nighttime.jpg"
+                alt="kitchen cabinets"
+                loading="eager"
+                width="2500"
+                height="1667"
+            />
+        </picture>
+    </section>
+
+    <!-- ============================================ -->
+    <!--                 Side By Side                 -->
+    <!-- ============================================ -->
+
+    <section id="sbs">
+        <div class="cs-container">
+            <!-- Left Image Section -->
+            <div class="cs-left">
+                <picture class="cs-picture cs-picture1">
+                    <source
+                        media="(max-width: 600px)"
+                        srcset="/assets/images/website-coean-head-nighttime.jpg"
+                    />
+                    <source
+                        media="(min-width: 601px)"
+                        srcset="/assets/images/website-coean-head-nighttime.jpg"
+                    />
+                    <img
+                        aria-hidden="true"
+                        decoding="async"
+                        src="/assets/images/website-coean-head-nighttime.jpg"
+                        alt="cabinets"
+                        loading="lazy"
+                        width="400"
+                        height="563"
+                    />
+                </picture>
+                <picture class="cs-picture cs-picture2">
+                    <source
+                        media="(max-width: 600px)"
+                        srcset="/assets/images/white-label-agency-services.jpg"
+                    />
+                    <source
+                        media="(min-width: 601px)"
+                        srcset="/assets/images/white-label-agency-services.jpg"
+                    />
+                    <img
+                        aria-hidden="true"
+                        decoding="async"
+                        src="/assets/images/white-label-agency-services.jpg"
+                        alt="house"
+                        loading="lazy"
+                        width="400"
+                        height="563"
+                    />
+                </picture>
+            </div>
+            <!-- Right Content Section-->
+            <div class="cs-right">
+                <span class="cs-topper">White Label Agency Services</span>
+                <p class="cs-title">Keep the Client. Let Us Man the Helm.</p>
+                <p class="cs-text">Not every client sails in with a huge budget and that's just fine. With Salt Song's white label website service your agency can offer polished, seaworthy sites to small budget clients without draining your own resources.</p>
+                
+                <p class="cs-title">Why It Works</p>
+                <p class="cs-text">Passing on a low budget client might seem like tossing dead weight, but you could be sending long term value overboard. Our white label partnership lets you:</p>
+                <ul>
+                    <li>Offer solid, affordable websites without tying up your team.</li>
+                    <li>Keep clients in your harbor so when they need branding, content or campaigns they come to you.</li>
+                    <li>Expand your offerings with a trustworthy web crew that delivers fast, clean builds.</li>
+                    <li>Avoid CMS maintenance nightmares. We build them, we maintain them. You get the glory. We stay below deck.</li>
+                </ul>
+                
+                <p class="cs-title">Special Partner Pricing</p>
+                <p class="cs-text">We offer exclusive agency partnership rates so you can increase your margins or pass the value to your clients and look like a damn hero. Either way, you win.</p>
+                
+                <p class="cs-title">What's in the Package?</p>
+                <p class="cs-text">Our flagship white label service is a fully custom 5 page website starting below our public rate of $199 per month. Need us to present under your brand? No problem. Prefer we vanish like a ghost ship post launch? Aye, we can do that too. We're here to make you look like the captain of the fleet.</p> 
+                
+                
+                <p class="cs-title">You set the course and we'll man the ship:</p>
+                <ul>
+                    <li>Dock at Our Port: Send clients straight to us and let them enjoy our special partner pricing. No extra work on your end.</li>
+                    <li>Sail Under Your Flag: Keep it fully branded with private label billing and fulfillment. We stay below deck while you take the spotlight.</li>
+                    <li>Bring Us Aboard: Need us to join a pitch, lead a client call, or present under your banner? We'll act as a seamless extension of your crew.</li>
+                </ul>
+                
+                <p class="cs-title">Each site includes:</p>
+                <ul>
+                    <li>Custom design with your agency's name and domain in the footer</li>
+                    <li>Unlimited content updates handled by Salt Song</li>
+                    <li>Optional add-ons for clients ready to scale</li>
+                    <li>Fast, accessible, SEO-friendly code that won't spring leaks</li>
+                </ul>
+                
+                <p class="cs-title"></p>Don't Toss Clients Overboard</p>
+                <p class="cs-text">Today's small budget sailor could be tomorrow's big kahuna. Keep them in your waters, build the relationship and cash in later... without taking on extra stress.
+                
+                <p class="cs-title">Quit turning away “too small” clients and start turning them into easy wins. Let's Chart a Course Together!</p>
+            </div>
+        </div>
+    </section>
+
+    {% include 'components/cta.html' %}
+{% endblock %}
