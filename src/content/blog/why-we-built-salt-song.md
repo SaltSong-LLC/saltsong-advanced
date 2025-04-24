@@ -2,8 +2,8 @@
 title: Why We Built Salt Song
 url: why-we-built-salt-song
 description: Exploring the history of our company
-author: Adam
-date: 2025-04-22T14:10:00.000Z
+author: Trina
+date: 2025-04-15T08:10:00.000Z
 tags:
   - post
   - featured

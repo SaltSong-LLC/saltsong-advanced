@@ -2,8 +2,8 @@
 title: Why We Don't Use Plugins & Page Builders
 url: why-we-dont-use-plugins-page-builders
 description: Exploring our process
-author: Adam
-date: 2025-04-22T14:06:00.000Z
+author: Trina
+date: 2025-04-08T08:06:00.000Z
 tags:
   - post
   - featured
