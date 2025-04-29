@@ -1,9 +1,9 @@
 ---
-author: Trina
 title: Why We Don't Use Plugins & Page Builders
 url: why-we-dont-use-plugins-page-builders
 description: Exploring our process
-date: 2025-04-08T08:06:00.000Z
+author: Trina
+date: 2024-12-09T01:06:00.000Z
 tags:
   - post
   - featured
