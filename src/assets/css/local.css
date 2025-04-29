@@ -70,7 +70,7 @@
     }
     #sbs .cs-text {
       margin-bottom: 1rem;
-      max-width: 46.875rem;
+      max-width: 80rem;
       text-align: left;
     }
     #sbs .cs-text:last-of-type {
@@ -236,7 +236,7 @@
     }
     #sbs-r .cs-text {
       margin-bottom: 1rem;
-      max-width: 46.875rem;
+      max-width: 80rem;
       text-align: left;
     }
     #sbs-r .cs-text:last-of-type {

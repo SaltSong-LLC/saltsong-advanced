@@ -70,7 +70,7 @@
     }
     #sbs .cs-text {
       margin-bottom: 1rem;
-      max-width: 46.875rem;
+      max-width: 80rem;
       color: var(--bodyTextColor);
       text-align: left;
     }
