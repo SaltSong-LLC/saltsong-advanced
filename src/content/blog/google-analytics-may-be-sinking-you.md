@@ -1,14 +1,14 @@
 ---
+author: Adam
 title: Google Analytics May Be Sinking You
 url: google-may-be-sinking-you
 description: Explores how free Google services may be inviting your competitors
   to steal your customers away from you.
-author: Adam
 date: 2025-04-22T14:04:00.000Z
 tags:
   - post
   - featured
-image: /assets/images/blog/google-sinking-you.jpg
+image: /assets/images/blog/google-anlytics-sinking-you.webp
 imageAlt: Going down with the ship
 ---
 In the vast ocean of digital tools, it's tempting to use free services. Many developers install tools like Google Analytics and Google Tag Manager by default. We did this ourselves for many years. They're easy to use, widely supported and offer valuable insights into your site's traffic.
