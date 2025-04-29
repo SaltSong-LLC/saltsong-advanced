@@ -1,13 +1,13 @@
 ---
+author: Trina
 title: Why We Built Salt Song
 url: why-we-built-salt-song
 description: Exploring the history of our company
-author: Trina
 date: 2025-04-15T08:10:00.000Z
 tags:
   - post
   - featured
-image: /assets/images/blog/why-saltsong.jpg
+image: /assets/images/blog/why-we-built-saltsong.webp
 imageAlt: Exploring the depths
 ---
 Salt Song started with a deep breath and a clear purpose.
