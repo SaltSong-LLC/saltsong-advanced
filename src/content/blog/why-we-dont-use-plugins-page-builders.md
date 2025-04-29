@@ -7,7 +7,7 @@ date: 2025-04-08T08:06:00.000Z
 tags:
   - post
   - featured
-image: /assets/images/blog/problem-with-pagebuilders.jpg
+image: /assets/images/blog/page-builders.webp
 imageAlt: A frustrated man in a coffee shop
 ---
 If you've ever tried to build your own website, you've probably run into the jungle of modern website tools: page builders, pre-made themes, plugins and add ons for everything.
