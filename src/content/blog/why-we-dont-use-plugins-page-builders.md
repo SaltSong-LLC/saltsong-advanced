@@ -1,8 +1,8 @@
 ---
+author: Trina
 title: Why We Don't Use Plugins & Page Builders
 url: why-we-dont-use-plugins-page-builders
 description: Exploring our process
-author: Trina
 date: 2025-04-08T08:06:00.000Z
 tags:
   - post
@@ -24,16 +24,16 @@ Themes can look pretty on the surface but they are built for sale. That means th
 
 Builders (like WordPress or Wix) give you drag-and-drop tools. If you have attempted to use these tools on your own, you know that there is a learning curve. Additionally, your drag and drop editor is behind the scenes attempting to translate all of this into code... and they're not very good at it. They generate bloated messy code that hurt your site's speed, SEO and usability. It also makes updates extremely difficult to make in the future. In short, it's a lot of work for a subpar product.
 
-These tools are like stuffing a boat with cargo you don't need. Sure, it floats—for now. But it's heavy, fragile, and prone to sinking when the weather changes.
+These tools are like stuffing a boat with cargo you don't need. Sure, it floats for now. But it's heavy, fragile, and prone to sinking when the weather changes.
 
 ### The Simpler, Smarter Way to Build a Website
 
 Your Salt Song website is built to run fast and stay safe with nothing unnecessary weighing it down. Instead of cobbling together a patchwork of random tools built by numerous developers, we build with clean HTML and CSS. That means:
 
- - Faster load times
- - Better SEO
- - Easier accessibility
- - Fewer things that can break
+* Faster load times
+* Better SEO
+* Easier accessibility
+* Fewer things that can break
 
 Best of all, you don't have to lift a finger. We handle everything and make unlimited updates for you, so your site stays fresh without the hassle. No learning curve, no headaches, no constant maintenance. Just run your business and let us take care of your website.
 
