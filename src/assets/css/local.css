@@ -775,6 +775,9 @@
       color: var(--secondary);
       display: block;
     }
+    body.dark-mode #quote-2141 .cs-name {
+      color: var(--primaryVeryLight);
+    }
     #quote-2141 .cs-job {
       font-size: 1rem;
       line-height: 1.5em;
