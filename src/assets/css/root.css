@@ -950,6 +950,7 @@
     }
     .title, .cs-title {
       font-family: "Glacial Indifference", "Arial", sans-serif;
+      text-transform: uppercase;
     }
     #cta p {
       opacity: 1;
