@@ -35,6 +35,11 @@
       max-width: 50rem;
       text-align: left;
     }
+    #cs-contact .cs-title.center {
+      text-align: center;
+      width: 100%;
+      margin-top: 1rem;
+    }
     #cs-contact .cs-text {
       margin: 0 auto 0 0;
       /* 40px - 48px */

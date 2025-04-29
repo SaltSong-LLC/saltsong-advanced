@@ -338,7 +338,7 @@
         color: var(--primaryLight);
     }
     body.dark-mode #services-1188 .cs-item {
-        background-color: var(--medium);
+        background-color: #06446a;
     }
     body.dark-mode #services-1188 .cs-text,
     body.dark-mode #services-1188 .cs-item-text {
