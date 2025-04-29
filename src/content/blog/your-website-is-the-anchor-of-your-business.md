@@ -1,13 +1,13 @@
 ---
+author: Adama
 title: Your Website is the Anchor of Your Business
 url: website-anchor
 description: Explaining how your website is the anchor of your business.
-author: Adama
 date: 2025-04-01T07:53:00.000Z
 tags:
   - post
   - featured
-image: /assets/images/blog/why-your-website-anchors-your-business.jpg
+image: /assets/images/blog/your-website.webp
 imageAlt: Example Website
 ---
 
