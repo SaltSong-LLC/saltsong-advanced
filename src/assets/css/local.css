@@ -391,6 +391,11 @@
     columns: 2;
     font-size: 1.2rem;
   }
+  @media only screen and (max-width: 48rem) {
+    #list-893 {
+      column-count: 1;
+    }
+  }
   #list-893 .cs-li {
     list-style: none;
     margin: 0 0 2rem 2rem;
