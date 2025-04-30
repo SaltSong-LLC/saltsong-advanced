@@ -172,8 +172,8 @@
       content: "";
       opacity: 1;
       display: block;
-      background: -moz-linear-gradient(top, rgba(250, 251, 252, 0) 0%, rgba(250, 251, 252, 0.5) 100%); /* FF3.6-15 */
-      background: -webkit-linear-gradient(top, rgba(250, 251, 252, 0) 0%, rgba(250, 251, 252, 0.5) 100%); /* Chrome10-25,Safari5.1-6 */
+      background: -moz-linear-gradient(top, rgba(250, 251, 252, 0) 0%, rgba(250, 251, 252, 0.5) 90%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(top, rgba(250, 251, 252, 0) 0%, rgba(250, 251, 252, 0.5) 90%); /* Chrome10-25,Safari5.1-6 */
       height: 100%;
       width: 0px;
     }
@@ -195,6 +195,14 @@
   @media only screen and (min-width: 0rem) {
     #services-1188 {
         padding: var(--sectionPadding);
+        background-image: url("../images/services-bg.png");
+        background-size: cover;
+        background-position-y: -60%;
+        background-repeat: no-repeat;
+    }
+    body.dark-mode #services-1188 {
+        background-color: var(--dark);
+        background-image: url("../images/services-bg-dark.png");
     }
     #services-1188 .cs-container {
         max-width: 80rem;
@@ -240,6 +248,7 @@
         flex-direction: column;
         align-items: center;
         text-align: left;
+        background-color: var(--white);
     }
     #services-1188 .cs-picture {
         width: 5rem;
