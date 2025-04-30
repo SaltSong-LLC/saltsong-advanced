@@ -564,7 +564,7 @@
       justify-content: flex-start;
       align-items: flex-end;
       margin: 0;
-      background-color: var(--primary);
+      background-color: var(--primaryVeryLight);
       height: 0;
       width: 100%;
       box-sizing: border-box;
@@ -581,7 +581,7 @@
     #cs-navigation .cs-li-link.cs-drop-link {
       /* 14px - 16px */
       font-size: clamp(0.875rem, 2vw, 1.25rem);
-      color: #fff;
+      color: #000;
     }
   }
   /* Desktop - 1024px */
