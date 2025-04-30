@@ -1245,6 +1245,15 @@
       background: #061623;
     }
   }
-  
+  <style>
+::-moz-selection { /* Code for Firefox */
+  color: fff;
+  background: #0a446c;
+}
+
+::selection {
+  color: fff;
+  background: #0a446c;
+}
   /*# sourceMappingURL=root.css.map */
   
