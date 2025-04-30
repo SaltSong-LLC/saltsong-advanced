@@ -389,27 +389,33 @@
     margin: 0 0 2rem 0;
     padding: 0;
     columns: 2;
+    font-size: 1.2rem;
   }
   #list-893 .cs-li {
     list-style: none;
-    margin: 0 0 0.5rem 0;
+    margin: 0 0 2rem 2rem;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     gap: 0.75rem;
     position: relative;
+    font-size: 1.2rem;
   }
   #list-893 .cs-li:before {
     /* accent shape */
     content: "";
-    width: 0.5rem;
-    height: 0.5rem;
+    width: 2rem;
+    height: 2rem;
     margin-top: 0.5rem;
-    background: #bababa;
-    border-radius: 0.25rem 0 0.25rem 0;
     display: block;
+    position: relative;
+    left: -2rem;
     /* prevents flexbox from squishing it */
     flex: none;
+    background-image: url("/assets/images/checkmark.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   /* Dark Mode, copy and paste only the styles inside the #list-893 brackets into your section's dark mode media query */
   body.dark-mode #list-893 .cs-li {
