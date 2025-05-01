@@ -1,9 +1,10 @@
 ---
-author: Adam
 title: Google Analytics May Be Sinking You
 url: google-may-be-sinking-you
-description: Explores how free Google services may be inviting your competitors
-  to steal your customers away from you.
+description: Many businesses rely on free tools like Google Analytics without
+  realizing they're trading away valuable customer data and possibly helping
+  their competitors in the process.
+author: Adam
 date: 2025-04-22T14:04:00.000Z
 tags:
   - post
