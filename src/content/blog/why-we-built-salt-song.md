@@ -1,7 +1,9 @@
 ---
 title: Why We Built Salt Song
 url: why-we-built-salt-song
-description: Exploring the history of our company
+description: Salt Song set sail with a mission to trade the stormy seas of
+  big-budget agencies for calmer waters where real people and small businesses
+  can chart their course online with confidence.
 author: Trina
 date: 2025-02-04T15:56:00.000Z
 tags:
