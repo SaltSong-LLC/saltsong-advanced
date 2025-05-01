@@ -1,7 +1,9 @@
 ---
 title: Why We Don't Use Plugins & Page Builders
 url: why-we-dont-use-plugins-page-builders
-description: Exploring our process
+description: Plugins, themes, and page builders may keep your website afloat at
+  first, but eventually they slow you down, break under pressure, and steer you
+  off course.
 author: Trina
 date: 2024-12-09T01:06:00.000Z
 tags:
