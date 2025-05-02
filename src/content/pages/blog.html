@@ -73,13 +73,7 @@ eleventyNavigation:
                             <div class="blog-authorGroup">
                                 <!--Author Image-->
                                 <picture class="blog-author-img">
-                                    <img
-                                        src="/assets/svgs/profile.svg"
-                                        alt="house"
-                                        width="32"
-                                        height="32"
-                                        decoding="async"
-                                    />
+                                    {% blogAuthor post.data.author %}
                                 </picture>
                                 <span class="blog-author"
                                     >{{ post.data.author }}</span
