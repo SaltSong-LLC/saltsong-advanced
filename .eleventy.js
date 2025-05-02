@@ -9,6 +9,7 @@ const configCss = require("./src/config/css");
 const configJs = require("./src/config/javascript");
 const configSitemap = require("./src/config/sitemap");
 const configServer = require("./src/config/server");
+const configFilters = require("./src/config/filters/blogauthor");
 
 const filterPostDate = require("./src/config/postDate");
 const isProduction = configServer.isProduction;
@@ -34,6 +35,8 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.addTemplateFormats("js");
     eleventyConfig.addExtension("js", configJs);
+
+    eleventyConfig.addPlugin(configFilters);
 
     eleventyConfig.addPlugin(pluginEleventyNavigation);
     eleventyConfig.addPlugin(pluginSitemap, configSitemap);
