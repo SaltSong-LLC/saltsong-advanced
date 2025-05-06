@@ -8,7 +8,6 @@ author: Adam
 date: 2024-10-08T00:53:00.000Z
 tags:
   - post
-  - featured
 image: /assets/images/blog/your-website.webp
 imageAlt: Example Website
 ---
