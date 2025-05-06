@@ -1,5 +1,5 @@
 ---
-title: Why ADA Compliance Matters — And Why Every Salt Song Website Includes It
+title: Why ADA Compliance Matters and Why Every Salt Song Website Includes It
 url: ada-compliance
 description: Every website we create is designed to be ADA compliant from the
   start. But what does that mean and why is it worth the investment?
