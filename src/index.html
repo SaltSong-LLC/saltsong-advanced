@@ -38,12 +38,12 @@ eleventyNavigation:
         {
             "@context": "http://schema.org",
             "@type": "LocalBusiness",
-            "name": "{{ client.name }}",
-            {% if preloadImg %}"image": "{{ preloadImg }}",{% endif %}
-            {% if client.phoneFormatted %}"telephone": "{{ client.phoneFormatted }}",{% endif %}
-            {% if client.email %}"email": "{{ client.email }}",{% endif %}
+            "name": "{{ client.name }}"
+            {% if preloadImg %}, "image": "{{ preloadImg }}"{% endif %}
+            {% if client.phoneFormatted %}, "telephone": "{{ client.phoneFormatted }}"{% endif %}
+            {% if client.email %}, "email": "{{ client.email }}"{% endif %}
             {% if client.address %}
-                "address": {
+                , "address": {
                     "@type": "PostalAddress"{% if client.address.lineOne %},
                         "streetAddress": "{{ client.address.lineOne }}{% if client.address.lineTwo %}, {{ client.address.lineTwo }}{% endif %}"
                     {% endif %}
