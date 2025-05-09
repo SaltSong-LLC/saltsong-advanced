@@ -1,0 +1,184 @@
+---
+title: "HTML Websites vs. Wordpress | Salt Song Web Designs"
+description: "Wordpress may seem cheaper, but the long term costs add up. Here is a comparison"
+preloadImg: "/assets/images/website-coean-head-nighttime.jpg"
+permalink: "email-marketing/"
+eleventyNavigation:
+    key: Email Marketing
+    order: 210
+    parent: Services
+---
+
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/assets/css/services.css" />
+{% endblock %}
+
+{% block body %}
+    <!-- ============================================ -->
+    <!--                    LANDING                   -->
+    <!-- ============================================ -->
+
+    <section id="int-hero">
+        <h1 class="cs-title">Email Marketing</h1>
+        <picture>
+            <source
+                media="(max-width: 600px)"
+                srcset="/assets/images/email-marketing-m.webp"
+            />
+            <source
+                media="(min-width: 601px)"
+                srcset="/assets/images/email-marketing.webp"
+            />
+            <img
+                aria-hidden="true"
+                decoding="async"
+                src="/assets/images/email-marketing.webp"
+                alt="Salt Song Web Design"
+                loading="eager"
+                width="2500"
+                height="1667"
+            />
+        </picture>
+    </section>
+
+    <!-- ============================================ -->
+    <!--                 Side By Side                 -->
+    <!-- ============================================ -->
+
+    <section id="sbs">
+        <div class="cs-container">
+            <div class="">
+                <span class="cs-topper">Email Marketing</span>
+                <h2 class="cs-title">Professional Email Marketing Services for Small Business</h2>
+              <table>
+  <thead>
+    <tr>
+      <th>&nbsp;</th>
+      <th>HTML Website</th>
+      <th>Wordpress Website</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="visible-xs" aria-hidden="true">
+      <td>&nbsp;</td>
+      <td colspan="3">Feature 1</td>
+    </tr>
+    <tr>
+      <td>Initial Build</td>
+      <td>$199</td>
+      <td>$3,000+</td>
+
+    </tr>
+    <tr class="visible-xs" aria-hidden="true">
+      <td>&nbsp;</td>
+      <td colspan="3">Managed Hosting</td>
+    </tr>
+    <tr>
+      <td>Managed Hosting</td>
+      <td>Included</td>
+      <td>$59/mo</td>
+ 
+    </tr>
+    <tr class="visible-xs" aria-hidden="true">
+      <td>&nbsp;</td>
+      <td colspan="3">Plug-Ins</td>
+    </tr>
+    <tr>
+      <td>Plug-ins</td>
+      <td>Not Needed</td>
+      <td>$50-$200/yr</td>
+    
+    </tr>
+    <tr class="visible-xs" aria-hidden="true">
+      <td>&nbsp;</td>
+      <td colspan="3">Maintenance</td>
+    </tr>
+    <tr>
+      <td>Maintenance</td>
+      <td>Included</td>
+      <td>$120/hr</td>
+   
+    </tr>
+<tr class="visible-xs" aria-hidden="true">
+      <td>&nbsp;</td>
+      <td colspan="3">Updates</td>
+    </tr>
+    <tr>
+      <td>Updates</td>
+      <td>Included</td>
+      <td>$120/hr</td>
+   
+    </tr>
+<tr class="visible-xs" aria-hidden="true">
+      <td>&nbsp;</td>
+      <td colspan="3">Security</td>
+    </tr>
+    <tr>
+      <td>Security</td>
+      <td>Included</td>
+      <td>$40/mo</td>
+   
+    </tr>
+<tr class="visible-xs" aria-hidden="true">
+      <td>&nbsp;</td>
+      <td colspan="3">ADA Compliance</td>
+    </tr>
+    <tr>
+      <td>ADA Compliance</td>
+      <td>Included</td>
+      <td>$60/mo</td>
+   
+    </tr>
+  </tbody>
+</table>
+
+                <p class="cs-text">Email is still one of the most powerful tools in your marketing toolbox, but only when it's done right. We help small businesses create smart, effective email systems that help connect you with your customers. We provide custom tailored services so we can help whether you are migrating from a mess or starting from scratch.</p>
+                <p class="cs-text">Your email marketing system should builds trust, encourages clicks and keeps your list healthy and engaged. The best email strategy isn't just about better metrics, it's about building relationships that last. Good email marketing is clear, honest and human. That's exactly how we build it.</p>
+                
+                <p class="cs-title"><H3>Marketing System Setup</H3></p><br/>
+                
+                <p class="cs-text">As experts in email marketing we can help you choose the right platform for your needs. You should choose your platform based on your audience, your marketing goals, skill level and budget. We've worked with numerous platforms over the years and we don't get kickbacks from any of them. So you can trust us to provide the best advice for your situation.</p>
+                
+                <p class="cs-title"><h3>Complex Automation & Variable Data</h3></p><br/>
+                
+                <p class="cs-text">If you need advanced automations, triggered emails or personalization that goes beyond “Hi [First Name]” We specialize in creating smart flows and automations that can be personalized in almost any way you can imagine.</p>
+                
+                <p class="cs-title"><h3>Campaign Management & Team Training</h3></p><br/>
+                
+                <p class="cs-text">We can help plan, write, design or send your campaigns... or we can manage the whole thing for you. If you prefer to keep your marketing in house, we can help advise and train your staff. Whatever you need, we can build a smart custom workflow to get your messages out.</p>
+                
+                <p class="cs-title"><h3>Template Design</h3></p><br/>
+                
+                <p class="cs-text">We design clean, branded email templates that make it simple to send polished campaigns. We test templates on multiple browsers and devices to be sure that your message is getting across no matter what device your customer is reading it on.</p>
+                
+                <p class="cs-title"><h3>Reputation Monitoring & Deliverability</h3></p><br/>
+                
+                <p class="cs-text">If your emails aren't getting opened or not landing in inboxes, we can help! We have years of experience troubleshooting deliverability issues. We can audit your sending practices, monitor your reputation and fine tune your strategy to improve reach and results.</p>
+                <p class="cs-text">Better targeting doesn't just boost performance, it can also lower your costs by focusing on the people who really want to hear from you. It's smart, efficient and exactly how email marketing should work.</p>
+                
+                <p class="cs-title"><h3>Open Rate & Engagement Strategy</h3></p><br/>
+                
+                <p class="cs-text">High open rates don't happen by accident. They are the result of smart strategy, thoughtful timing and emails that actually feel worth opening.</p>
+                <p class="cs-text">We'll help you craft subject lines that stand out in a crowded inbox. We look at when your audience is most likely to open, what devices they use and what kind of content actually keeps them engaged. But we don't stop at opens.</p>
+                <p class="cs-text">Engagement is where email starts to really work for your business. We can help:</p>
+                
+                <ul style="padding-left:40px">
+                    <li>Write emails that feel personal</li>
+                    <li>Structure content for quick reading and clear calls to action</li>
+                    <li>Use segmentation and automations to send the right message to the right person at the right time</li>
+                    <li>Test and adjust based on real results</li>
+                </ul>
+                
+                <p class="cs-title"><h3>As Hands-On or Hands-Off as You Like</h3></p><br/>
+                
+                <p class="cs-text">Need a full-service crew? We can do that. Need us to set it up so you can run it yourself? We love that too! We're here to guide you based on your individual needs.</p>
+                <p class="cs-text">Reach out if you're ready to send emails your customers are excited to open (not just toss overboard).</p>
+            </div>
+        </div>
+    </section>
+
+    {% include 'components/cta.html' %}
+{% endblock %}
