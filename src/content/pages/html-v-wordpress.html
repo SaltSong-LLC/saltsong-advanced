@@ -12,6 +12,7 @@ eleventyNavigation:
 
 {% block head %}
     <link rel="stylesheet" href="/assets/css/services.css" />
+ <link rel="stylesheet" href="/assets/css/services.css" />
 {% endblock %}
 
 {% block body %}
@@ -290,13 +291,6 @@ eleventyNavigation:
         </div>
     </section>
 
-   <script> {% include 'components/cta.html' %}
-const faqItems = Array.from(document.querySelectorAll('.cs-faq-item'));
-        for (const item of faqItems) {
-            const onClick = () => {
-            item.classList.toggle('active')
-        }
-        item.addEventListener('click', onClick)
-        }</script>
+ 
                                 
 {% endblock %}
