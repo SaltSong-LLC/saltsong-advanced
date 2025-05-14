@@ -31,7 +31,7 @@
       font-size: var(--topperFontSize);
       line-height: 1.2em;
       font-weight: 700;
-      color: var(--primary);
+      color: #0c5e8b;
       text-align: inherit;
     }
     .cs-title {
