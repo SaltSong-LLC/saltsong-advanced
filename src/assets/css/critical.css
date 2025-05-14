@@ -147,7 +147,7 @@
       /* this is what creates the grow affect on hover */
       transform: scaleX(0);
       display: block;
-      background: #000;
+      background: #0c5e8b;
       transition: transform 0.3s;
       transform-origin: left;
     }
