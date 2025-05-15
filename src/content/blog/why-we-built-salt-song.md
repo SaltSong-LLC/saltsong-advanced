@@ -8,7 +8,6 @@ author: Trina
 date: 2025-02-04T15:56:00.000Z
 tags:
   - post
-  - featured
 image: /assets/images/blog/why-we-built-saltsong.webp
 imageAlt: Exploring the depths
 ---
