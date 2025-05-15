@@ -1,8 +1,8 @@
 ---
 title: Are Free Websites for Small Businesses Really Worth It?
 url: free-website-for-small-business-worth-it
-description: Should you use a free website builder or is it worth paying for
-  one? We discuss the pitfalls of free websites.
+description: Should you use a free website builder or is it worth paying for a
+  professional website development? We discuss the pitfalls of "free" websites.
 author: Trina
 date: 2025-05-15T16:36:00.000Z
 tags:
