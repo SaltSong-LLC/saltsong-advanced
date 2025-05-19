@@ -126,7 +126,7 @@
         content: "";
         width: 0.5rem;
         height: 0.125rem;
-        background-color: var(--headerColor);
+        background-color: var(--primaryLight);
         opacity: 1;
         border-radius: 50%;
         position: absolute;
@@ -137,6 +137,9 @@
         /* animate the transform from the left side of the x axis, and the center of the y */
         transform-origin: left center;
         transition: transform 0.5s;
+    }
+    body.dark-mode #faq-1237 .cs-button:before {
+      background-color: var(--primaryVeryLight);
     }
     #faq-1237 .cs-button:after {
         /* right line */
@@ -207,6 +210,9 @@
         padding: clamp(1rem, 2.5vw, 1.5rem) 0;
         display: block;
     }
+    #faq-1237 .active .cs-button-text {
+        color: var(--bodyTextColorWhite);
+    }
     #faq-1237 .cs-item-p {
         /* 14px - 16px */
         font-size: clamp(0.875rem, 1.5vw, 1rem);
@@ -225,6 +231,9 @@
             opacity 0.3s,
             padding-bottom 0.3s,
             padding-top 0.3s;
+    }
+    #faq-1237 .active .cs-item-p a {
+        color: var(--primaryVeryLight);
     }
     #faq-1237 .cs-floater {
         display: none;
