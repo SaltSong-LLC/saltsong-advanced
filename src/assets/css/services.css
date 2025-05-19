@@ -66,7 +66,7 @@
         background-color: #1a1a1a;
     }
     #faq-1237 .cs-faq-item.active .cs-button {
-        color: var(--primary);
+        /*color: var(--primary);*/
     }
     #faq-1237 .cs-faq-item.active .cs-button:before {
         background-color: var(--primary);
@@ -256,7 +256,7 @@
         background-color: rgba(0, 0, 0, 0.6);
     }
     body.dark-mode #faq-1237 .cs-faq-item.active .cs-button {
-        color: var(--secondary);
+        /*color: var(--secondary);*/
     }
     body.dark-mode #faq-1237 .cs-faq-item.active .cs-button:before,
     body.dark-mode #faq-1237 .cs-faq-item.active .cs-button:after {

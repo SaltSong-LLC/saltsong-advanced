@@ -144,9 +144,6 @@
       border: clamp(0.375em, 1.5vw, 0.75em) solid var(--dark);
       background-color: var(--dark);
     }
-    body.dark-mode #sbs .cs-topper {
-      color: var(--primaryLight);
-    }
     body.dark-mode #sbs .cs-title,
     body.dark-mode #sbs .cs-text,
     body.dark-mode #sbs .cs-h3,

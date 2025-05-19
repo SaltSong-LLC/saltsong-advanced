@@ -88,7 +88,6 @@
     }
     #hero .cs-topper {
       margin-bottom: 1rem;
-      color: var(--primary);
       text-align: center;
     }
     #hero .cs-title {
@@ -343,9 +342,6 @@
   }
   /* Dark Mode */
   @media only screen and (min-width: 0rem) {
-    body.dark-mode #services-1188 .cs-topper {
-        color: var(--primaryLight);
-    }
     body.dark-mode #services-1188 .cs-item {
         background-color: #06446a;
     }

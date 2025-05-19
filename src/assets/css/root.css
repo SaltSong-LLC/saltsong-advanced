@@ -31,8 +31,11 @@
       font-size: var(--topperFontSize);
       line-height: 1.2em;
       font-weight: 700;
-      color: #0c5e8b;
+      color: var(--secondary);
       text-align: inherit;
+    }
+    body.dark-mode .cs-topper {
+      color: var(--bodyTextColorWhite);
     }
     .cs-title {
       position: relative;
@@ -1245,7 +1248,7 @@
       background: #061623;
     }
   }
-  <style>
+  
 ::-moz-selection { /* Code for Firefox */
   color: fff;
   background: #85d0e2;

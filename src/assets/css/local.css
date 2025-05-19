@@ -143,9 +143,6 @@
       border: clamp(0.375em, 1.5vw, 0.75em) solid var(--dark);
       background-color: var(--dark);
     }
-    body.dark-mode #sbs .cs-topper {
-      color: var(--primaryLight);
-    }
     body.dark-mode #sbs .cs-title,
     body.dark-mode #sbs .cs-text,
     body.dark-mode #sbs .cs-h3,
@@ -308,9 +305,6 @@
       border: clamp(0.375em, 1.5vw, 0.75em) solid var(--dark);
       background-color: var(--dark);
     }
-    body.dark-mode #sbs-r .cs-topper {
-      color: var(--primaryLight);
-    }
     body.dark-mode #sbs-r .cs-title,
     body.dark-mode #sbs-r .cs-text,
     body.dark-mode #sbs-r .cs-h3,
@@ -367,12 +361,6 @@
         flex-direction: column;
         /* centers content horizontally, set to flex-start to left align */
         align-items: flex-start;
-    }
-    #steps-1209 .cs-topper {
-        color: var(--secondary);
-    }
-    body.dark-mode #steps-1209 .cs-topper {
-        color: var(--bodyTextColorWhite);
     }
     #steps-1209 .cs-title {
         margin: 0;
@@ -458,9 +446,6 @@
       /* centers content horizontally, set to flex-start to left align */
       align-items: flex-start;
       position: relative;
-    }
-    #pricing-1769 .cs-topper {
-      color: var(--bodyTextColorWhite);
     }
     #pricing-1769 .cs-title {
       margin: 0;
@@ -861,9 +846,6 @@
     }
     #blog-1581 .cs-title {
       max-width: 20ch;
-      color: var(--secondary);
-    }
-    #blog-1581 .cs-topper {
       color: var(--secondary);
     }
     #blog-1581 .cs-button-solid {
