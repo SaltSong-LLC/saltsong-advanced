@@ -1163,7 +1163,7 @@
       text-align: center;
     }
     #footer .credit a {
-      text-decoration: none;
+      text-decoration: underline;
       font-size: 1rem;
       color: var(--primary);
     }
