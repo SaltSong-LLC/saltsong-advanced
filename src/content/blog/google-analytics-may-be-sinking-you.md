@@ -16,7 +16,7 @@ In the vast ocean of digital tools, it's tempting to use free services. Many dev
 
 But beware, there's a current beneath the surface that's easy to miss. Google Analytics is not free because you're paying with your customer's data. You may not care about your visitors data until you learn how Google will use that data to give an advantage to your competitor. 
 
-### When You Let Google Onboard, They Join the Voyage
+## When You Let Google Onboard, They Join the Voyage
 
 Let's say a prospective customer visits your website and they're interested in your state of the art Seagull Translator. They decide not to purchase today but they plan to. 
 
