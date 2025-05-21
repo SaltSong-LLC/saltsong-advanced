@@ -18,7 +18,7 @@ At first they seem helpful. But before long you're buried in a tangled mess of u
 
 After years of headaches, updates and slow running sites, we've decided to leave all that behind. And we think you should, too!
 
-### What's the Problem with Plugins, Themes, and Builders?
+## What's the Problem with Plugins, Themes, and Builders?
 
 Plugins are little bits of code that add features to your site. They're often built by third parties and not all of them are secure or reliable. Additionally, the developer who built the plugin may not be very good or he may disappear forever when he loses interest in the work. Once the plugin fails, it could bring down your entire website. At the very least, you will be stuck paying a developer to install a new plugin that could cause the same issue at any point in the future. And most modern websites are built with dozens of plug-ins!
 
@@ -28,7 +28,7 @@ Builders (like WordPress or Wix) give you drag-and-drop tools. If you have attem
 
 These tools are like stuffing a boat with cargo you don't need. Sure, it floats for now. But it's heavy, fragile, and prone to sinking when the weather changes.
 
-### The Simpler, Smarter Way to Build a Website
+## The Simpler, Smarter Way to Build a Website
 
 Your Salt Song website is built to run fast and stay safe with nothing unnecessary weighing it down. Instead of cobbling together a patchwork of random tools built by numerous developers, we build with clean HTML and CSS. That means:
 
