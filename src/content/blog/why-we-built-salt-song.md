@@ -17,13 +17,13 @@ We've spent our entire careers working in fast paced, high-budget agencies. We h
 
 We knew there had to be a better way, so we built one.
 
-### From Boardrooms to Back Decks
+## From Boardrooms to Back Decks
 
 We left the agency world behind because we wanted to work with and support real humans, running real businesses, doing what they love. The kind of people who don't have time to learn web design, don't want to wrestle with broken plugins and shouldn't have to pay thousands just to get their small business going online.
 
 At our agency, we had to say no to those people because they didn't have the budget. At Salt Song we get to say yes!
 
-### Why "Salt Song"?
+## Why "Salt Song"?
 
 The unpredictable beauty of the sea has always called to us. There's something about the rhythm of the waves that reminds us that simplicity, honesty and staying true to your course are what really matters. Salt water heals and sea air clears the mind. That spirit runs through everything we build.
 
