@@ -34,7 +34,7 @@ If regulators catch wind that you're tracking EU visitors without proper consent
 If you want smooth sailing, here are a few privacy first analytics tools that are much easier to understand and navigate, do not collect data from your visitors and are GDPR compliant:
 
 * [Plausible](https://plausible.io/)
-* [Fathom Analytics](https://usefathom.com/)
+* [Fathom Analytics](https://usefathom.com/ref/UVY4LN)
 * [Simple Analytics
   ](https://www.simpleanalytics.com/)
 
