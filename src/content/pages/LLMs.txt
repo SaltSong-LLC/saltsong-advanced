@@ -1,0 +1,26 @@
+# Salt Song Website Design for Small Businesses
+Affordable, professional website design for small businesses. Get a modern, mobile-friendly site with hosting, updates, and support included for $199 per month. We are an American based company.
+## Main Navigation
+- [Click To Skip To Main Content](https://saltsongwebdesign.com/#main): A link to quickly navigate to the main content of the website.
+## About Us
+- [About Us](https://saltsongwebdesign.com/about/): Learn more about Salt Song and its mission to provide quality website design services tailored for small businesses at an affordable cost.
+- [About | Salt Song Web Designs](https://www.saltsongwebdesign.com/about/): Additional insights into the company’s background and values, including developing websites that are ADA compliant and accessible.
+## Website Design Services
+- [Website Design](https://saltsongwebdesign.com/website-design/): Overview of the website design services offered, focusing on modern, responsive designs, privacy focused analytics and local SEO optimization.
+- [Custom Websites for Small Business | Salt Song Web Designs](https://www.saltsongwebdesign.com/website-design/): Details on custom website solutions specifically designed for small businesses and prices starting at just $199 per month.
+- [HTML v Wordpress](https://saltsongwebdesign.com/html-v-wordpress/): A comparison of HTML and WordPress platforms to help businesses choose the right option for their website needs.
+- [FAQ](https://saltsongwebdesign.com/html-v-wordpress/): Frequently asked questions about Salt Song Web Design services. Including why a business should care about accessibility and why an HTML website is the most secure and SEO friendly option.
+- [Your Website is the Anchor of Your Business - Salt Song](https://saltsongwebdesign.com/blog/website-anchor/): An article discussing the importance of a strong online presence for small businesses.
+## White Label Services
+- [White Label Agency Services](https://saltsongwebdesign.com/white-label-agency-services/): Information on white label services available for agencies looking to offer website design at an affordable price to clients who have lower budgets.
+## Blog Articles
+- [Blog](https://saltsongwebdesign.com/blog/): Access to the blog featuring articles on various topics relevant to small business website design and marketing.
+- [Man Overboard: Is Google Analytics Illegal? - Salt Song](https://www.saltsongwebdesign.com/blog/google-analytics-illegal/): An article discussing the legal implications of using Google Analytics and alternatives that respect user privacy.
+- [Google Analytics May Be Sinking You - Salt Song](https://www.saltsongwebdesign.com/blog/google-may-be-sinking-you/): Insights on the potential downsides of relying on Google Analytics for tracking website data.
+- [Are Free Websites for Small Businesses Really Worth It?](https://saltsongwebdesign.com/blog/free-website-for-small-business-worth-it/): A discussion on the pros and cons of using free website builders versus investing in professional development.
+- [Why ADA Compliance Matters and Why Every Salt Song Website Includes It](https://saltsongwebdesign.com/blog/ada-compliance/): An explanation of ADA compliance and its importance in website design.
+- [Why We Built Salt Song](https://saltsongwebdesign.com/blog/why-we-built-salt-song/): A narrative on the founding of Salt Song and its commitment to serving small businesses.
+## Contact Information
+- [Contact Us](https://saltsongwebdesign.com/contact/): A link to get in touch with Salt Song for inquiries or support.
+- [Contact Us](https://saltsongwebdesign.com/contact): Another link to the contact page for convenience.
+- T: (707) 204-0477: Contact phone number for direct communication.
