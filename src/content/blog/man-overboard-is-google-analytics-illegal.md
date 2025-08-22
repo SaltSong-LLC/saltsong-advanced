@@ -7,7 +7,6 @@ author: Trina
 date: 2025-05-22T16:03:00.000Z
 tags:
   - post
-  - featured
 image: /assets/images/blog/google-analytics-illegal.webp
 imageAlt: Is Google Analytics Illegal? (Boat image)
 ---
