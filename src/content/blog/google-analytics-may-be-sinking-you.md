@@ -36,4 +36,6 @@ At Salt Song we value privacy, data sovereignty and keeping third parties out of
 
 Instead, we use a paid analytics alternative with no cookies that won't slow your site down or share your customer's data. Our tools are GDPR compliant so you don't need one of those cookie popups. Instead of a frustrating and hard to understand Google dashboard, you receive a monthly report that's easy to read for a human.
 
+If you wish to learn more about alternative analytics tracking tools, please check out this our blog post [Is Google Analytics Illegal?](https://saltsongwebdesign.com/blog/google-analytics-illegal/) for more information.
+
 Are you ready to ditch Google Analytics and get a better website? Give us a call today.
