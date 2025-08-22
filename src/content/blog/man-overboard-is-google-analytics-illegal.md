@@ -37,7 +37,7 @@ If you want smooth sailing, here are a few privacy first analytics tools that ar
 * [Fathom Analytics](https://usefathom.com/ref/UVY4LN)
 * [Simple Analytics](https://www.simpleanalytics.com/?referral=kewuv)
 
-Please note, we do use Fathom both for ourselves and clients but we have also tried Plausible and thought the service was nice. Fathom is better if you have multiple websites, while Plausible is better if you just have one website. We do not have first hand experience using Simple Analytics, but they do have an excellent reputation.
+Please note, we do use Fathom both for ourselves and clients, but we have also tried Plausible and thought the service was excellent. Fathom is better if you have multiple websites, while Plausible is better if you just have one website. We do not have first hand experience using Simple Analytics, but they do have an excellent reputation and appear to adhere to privacy standards.
 
 Look, we get it. Tracking your website data is important. But so is respecting your visitors' privacy AND keeping yourself litigation free! If you want help setting sail with a privacy first setup (that still gives you the data you need) we’ve got your back.
 
